@@ -4,6 +4,7 @@ problem 1:
 # ⭐ **Warmup Problem: Running Sum of 1D Array**
 
 Difficulty: *Easy*
+
 Category: **Arrays**
 
 ### 📌 Problem
@@ -30,3 +31,21 @@ Output: [1, 2, 3, 4, 5]
 
 1. Think about how you’d compute the running sum.
 2. Then write the code in python.
+
+
+
+# solution 
+
+def runningSum(nums):
+    result = []
+    current_sum = 0
+
+    for x in nums:
+        current_sum = current_sum + x
+        result.append(current_sum)
+
+    return result
+    
+print(runningSum([1, 2, 3, 4]))
+
+
