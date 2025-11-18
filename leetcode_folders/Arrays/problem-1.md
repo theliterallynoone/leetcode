@@ -35,7 +35,7 @@ Output: [1, 2, 3, 4, 5]
 
 
 # solution 
-
+```
 def runningSum(nums):
     result = []
     current_sum = 0
@@ -47,5 +47,5 @@ def runningSum(nums):
     return result
     
 print(runningSum([1, 2, 3, 4]))
-
+```
 
