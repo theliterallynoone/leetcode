@@ -1,7 +1,7 @@
 # Arrays
 problem 1:
 
-# ⭐ **Warmup Problem: Running Sum of 1D Array**
+# ⭐ **Problem #1 - Running Sum of 1D Array**
 
 Difficulty: *Easy*
 
@@ -27,13 +27,6 @@ Output: [1, 2, 3, 4, 5]
 
 ---
 
-# 🎯 Your Goal
-
-1. Think about how you’d compute the running sum.
-2. Then write the code in python.
-
-
-
 # solution 
 ```
 def runningSum(nums):
@@ -46,6 +39,8 @@ def runningSum(nums):
 
     return result
     
-print(runningSum([1, 2, 3, 4]))
+print(runningSum([7,8,9,10]))
 ```
 
+so the output we get becomes-
+# [7, 15, 24, 34]
