@@ -14,13 +14,6 @@ Build strong pattern recognition + logic foundations
 
 ---
 
-## 🔍 What one can expect to find here:
-- Clean, minimal solutions  
-- Occasional comments  
-- Problems grouped by topic  
-- Consistency > perfection  
-
----
 
 ## 🌱 Status
 Updated whenever I (try to) solve something.  
